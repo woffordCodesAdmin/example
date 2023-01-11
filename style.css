@@ -1,0 +1,44 @@
+body {
+    background-color: white;
+}
+
+/* Landing Page CSS */
+
+
+.navContainer {
+    border: solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* start of ele */
+.navBtns {
+    border: solid navy;
+    margin: 1em;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 12px;
+}
+
+/* once mouse interacts */
+.navBtns:hover {
+    border: solid navy;
+    background-color: green;
+    color: red;
+    margin: 1em;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 12px;
+}
+
+/* Profile Page CSS */
+.shoe {
+    height: 120px;
+}
+
+.shoe:hover {
+    height: 120px;
+    -webkit-box-shadow: 18px -1px 15px 19px #2EFF70;
+    box-shadow: 18px -1px 15px 19px #2EFF70;
+}
